@@ -13,9 +13,9 @@ mainClassName = "de.larsgrefer.spring.security.PasswordEncoderTester"
 group 'de.larsgrefer'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 dependencies {
-    compile "org.springframework.security:spring-security-core:5.2.0.RC1"
-    compile 'org.bouncycastle:bcprov-jdk15on:1.63'
+    implementation 'org.springframework.security:spring-security-core:5.5.1'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.69'
 }
